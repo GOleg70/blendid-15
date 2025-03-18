@@ -7,7 +7,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/mobile/mob-dark-bg@1.jpg);
+    url(../img/mobile/mob-dark-bg@1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,7 +21,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/mobile/mob-dark-bg@2.jpg);
+      url(../img/mobile/mob-dark-bg@2.jpg);
   }
 }
 .firstsec-h-one {
@@ -37,7 +37,7 @@
   margin: 0 auto;
 }
 .button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
@@ -74,7 +74,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/tablet/tab-dark-bg@1.jpg);
+      url(../img/tablet/tab-dark-bg@1.jpg);
   }
   @media screen and (min-width: 768px) and (min-resolution: 2x) {
     .firstsec {
@@ -83,7 +83,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/tablet/tab-dark-bg@2.jpg);
+        url(../img/tablet/tab-dark-bg@2.jpg);
     }
   }
   .firstsec-h-one {
@@ -102,7 +102,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/comp/comp-people-office@1.jpg);
+      url(../img/comp/comp-people-office@1.jpg);
   }
   @media screen and (min-width: 1158px) and (min-resolution: 2x) {
     .firstsec {
@@ -111,7 +111,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/comp/comp-people-office@2.jpg);
+        url(../img/comp/comp-people-office@2.jpg);
     }
   }
 }

@@ -1,19 +1,114 @@
-<header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+<header class="page-header">
+  <div class="container header-container">
+    <nav class="navi">
+      <a class="logo-header logo-link" href="./index.html"
+        >Web<span class="logo">Studio</span></a
+      >
+      <ul class="navi-list">
+        <li>
+          <a
+            class="navi-link navi-link-studio navi-link-focus"
+            href="./index.html"
+            >Studio</a
+          >
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li>
+          <a class="navi-link" href="">Portfolio</a>
+        </li>
+        <li>
+          <a class="navi-link" href="">Contacts</a>
         </li>
       </ul>
     </nav>
+    <address class="address-head">
+      <ul class="address-list">
+        <li>
+          <a class="address-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="address-link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </address>
+    <button class="mob-btn" type="button">
+      <svg class="mob-btn-icon" width="24" height="24" data-menu-open>
+        <use href="./images/icons.svg#icon-mob_menu"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="mobile-menu" data-menu>
+    <div class="container mobile-menu-container">
+      <button class="mobile-bnt-close" type="button" data-menu-close>
+        <svg class="mobile-bnt-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-navi">
+        <ul class="mobile-navi-list">
+          <li>
+            <a
+              class="mobile-navi-link mobile-navi-link-studio"
+              href="./index.html"
+              >Studio</a
+            >
+          </li>
+
+          <li>
+            <a class="mobile-navi-link" href="">Portfolio</a>
+          </li>
+          <li>
+            <a class="mobile-navi-link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="mobile-address-head">
+        <ul class="mobile-address-list">
+          <li>
+            <a class="mobile-address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mobile-address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-sec-three-li-text-two">
+        <li class="sec-three-li-footer-svg">
+          <a class="sec-three-li-text-two-list" href="">
+            <svg class="icon-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="sec-three-li-footer-svg">
+          <a class="sec-three-li-text-two-list" href="">
+            <svg class="icon-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="sec-three-li-footer-svg">
+          <a class="sec-three-li-text-two-list" href="">
+            <svg class="icon-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="sec-three-li-footer-svg">
+          <a class="sec-three-li-text-two-list" href="">
+            <svg class="icon-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </header>
