@@ -6,26 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <script type="module" crossorigin src="/blendid-15/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/blendid-15/assets/index-DysQB7fG.css">
+    <link rel="stylesheet" crossorigin href="/blendid-15/assets/index-VKq3VD1P.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/blendid-15/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+    <header class="page-header">
+  <div class="container header-container">
+    <nav class="navi">
+      <a class="logo-header logo-link" href="./index.html"
+        >Web<span class="logo">Studio</span></a
+      >
+      <ul class="navi-list">
+        <li>
+          <a
+            class="navi-link navi-link-studio navi-link-focus"
+            href="./index.html"
+            >Studio</a
+          >
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li>
+          <a class="navi-link" href="">Portfolio</a>
+        </li>
+        <li>
+          <a class="navi-link" href="">Contacts</a>
         </li>
       </ul>
     </nav>
+    <address class="address-head">
+      <ul class="address-list">
+        <li>
+          <a class="address-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="address-link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </address>
+    <button class="mob-btn" type="button">
+      <svg class="mob-btn-icon" width="24" height="24" data-menu-open>
+        <use href="./images/icons.svg#icon-mob_menu"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="mobile-menu" data-menu>
+    <div class="container mobile-menu-container">
+      <button class="mobile-bnt-close" type="button" data-menu-close>
+        <svg class="mobile-bnt-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-navi">
+        <ul class="mobile-navi-list">
+          <li>
+            <a
+              class="mobile-navi-link mobile-navi-link-studio"
+              href="./index.html"
+              >Studio</a
+            >
+          </li>
+
+          <li>
+            <a class="mobile-navi-link" href="">Portfolio</a>
+          </li>
+          <li>
+            <a class="mobile-navi-link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="mobile-address-head">
+        <ul class="mobile-address-list">
+          <li>
+            <a class="mobile-address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mobile-address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-sec-three-li-text-two">
+        <li class="sec-three-li-footer-svg">
+          <a class="sec-three-li-text-two-list" href="">
+            <svg class="icon-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="sec-three-li-footer-svg">
+          <a class="sec-three-li-text-two-list" href="">
+            <svg class="icon-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="sec-three-li-footer-svg">
+          <a class="sec-three-li-text-two-list" href="">
+            <svg class="icon-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="sec-three-li-footer-svg">
+          <a class="sec-three-li-text-two-list" href="">
+            <svg class="icon-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </header>
 
@@ -52,7 +147,7 @@
       <li class="div-list-sec-two">
         <div class="sec-two-two">
           <svg class="sec-two-icon" width="64" height="64">
-            <use href="./images/icons.svg#icon-antenna-1"></use>
+            <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-antenna-1"></use>
           </svg>
         </div>
         <h3 class="sec-two-h-three">Strategy</h3>
@@ -64,7 +159,7 @@
       <li class="div-list-sec-two">
         <div class="sec-two-two">
           <svg class="sec-two-icon" width="64" height="64">
-            <use href="./images/icons.svg#icon-clock-1"></use>
+            <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-clock-1"></use>
           </svg>
         </div>
         <h3 class="sec-two-h-three">Punctuality</h3>
@@ -76,7 +171,7 @@
       <li class="div-list-sec-two">
         <div class="sec-two-two">
           <svg class="sec-two-icon" width="64" height="64">
-            <use href="./images/icons.svg#icon-diagram-1"></use>
+            <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-diagram-1"></use>
           </svg>
         </div>
         <h3 class="sec-two-h-three">Diligence</h3>
@@ -88,7 +183,7 @@
       <li class="div-list-sec-two">
         <div class="sec-two-two">
           <svg class="sec-two-icon" width="64" height="64">
-            <use href="./images/icons.svg#icon-astronaut-1"></use>
+            <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-astronaut-1"></use>
           </svg>
         </div>
         <h3 class="sec-two-h-three">Technologies</h3>
@@ -96,6 +191,193 @@
           Design practice focused on digital experiences. We bring forth a deep
           passion for problem-solving.
         </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <!-- Main Section 3 -->
+<section class="sec-three">
+  <div class="container div-sec-three">
+    <h2 class="sec-three-h-two">Our Team</h2>
+    <ul class="sec-three-ul">
+      <li class="sec-three-li">
+        <img
+          srcset="/blendid-15/assets/mob-mark@1-VDyxR9yB.jpg 1x, /blendid-15/assets/mob-mark@2-Bo-eoSI7.jpg 2x"
+          src="/blendid-15/assets/img1-BuPrt_vF.jpg"
+          alt="Mark Guerrero Product Designer"
+          width="264"
+        />
+
+        <div class="sec-three-li-text">
+          <h3 class="sec-three-h-three">Mark Guerrero</h3>
+          <p class="section-three-p">Product Designer</p>
+
+          <ul class="sec-three-li-text-two">
+            <li class="sec-three-li-svg">
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16" height="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sec-three-li-svg">
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16" height="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sec-three-li-svg">
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16" height="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sec-three-li-svg">
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16" height="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="sec-three-li">
+        <img
+          srcset="/blendid-15/assets/mob-tom@1-86xgUhlc.jpg 1x, /blendid-15/assets/mob-tom@2-MXIAM89k.jpg 2x"
+          src="/blendid-15/assets/img2-BKQVMtT1.jpg"
+          alt="Tom Ford Frontend Developer"
+          width="264"
+        />
+
+        <div class="sec-three-li-text">
+          <h3 class="sec-three-h-three">Tom Ford</h3>
+          <p class="section-three-p">Frontend Developer</p>
+
+          <ul class="sec-three-li-text-two">
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="sec-three-li">
+        <img
+          srcset="/blendid-15/assets/mob-camila@1-C2tcrTxn.jpg 1x, /blendid-15/assets/mob-camila@2-CBEDlMhn.jpg 2x"
+          src="/blendid-15/assets/img3-CSwfqE66.jpg"
+          alt="Camila Garcia Marketing"
+          width="264"
+        />
+
+        <div class="sec-three-li-text">
+          <h3 class="sec-three-h-three">Camila Garcia</h3>
+          <p class="section-three-p">Marketing</p>
+
+          <ul class="sec-three-li-text-two">
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="sec-three-li">
+        <img
+          srcset="/blendid-15/assets/mob-daniel@1-z65xJ0sZ.jpg 1x, /blendid-15/assets/mob-daniel@2-DlYSM-Rw.jpg 2x"
+          src="/blendid-15/assets/img4-DH1EOXX_.jpg"
+          alt="Daniel Wilson UI Designer"
+          width="264"
+        />
+        <div class="sec-three-li-text">
+          <h3 class="sec-three-h-three">Daniel Wilson</h3>
+          <p class="section-three-p">UI Designer</p>
+
+          <ul class="sec-three-li-text-two">
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="/blendid-15/assets/icons-BLMT-X0F.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sec-three-li-text-two-list" href="">
+                <svg class="icon-svg" width="16">
+                  <use href="../img/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </li>
     </ul>
   </div>
